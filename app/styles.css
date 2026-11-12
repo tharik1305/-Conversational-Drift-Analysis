@@ -1,0 +1,53 @@
+/* Metric Card Containers */
+div[data-testid="stMetric"] {
+    background-color: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+div[data-testid="stMetricLabel"] {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #38bdf8 !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+}
+
+/* Alert Banner */
+.custom-alert {
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+}
+
+.custom-alert.danger {
+    background-color: rgba(239, 68, 68, 0.15);
+    border: 1px solid #ef4444;
+    color: #fca5a5;
+}
+
+.custom-alert.success {
+    background-color: rgba(16, 185, 129, 0.15);
+    border: 1px solid #10b981;
+    color: #86efac;
+}
+
+/* Executive Summary Box */
+.summary-container {
+    background: rgba(30, 41, 59, 0.7);
+    border-left: 4px solid #6366f1;
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
